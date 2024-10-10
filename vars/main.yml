@@ -5,4 +5,4 @@ container_home: "{{ ansible_env.HOME }}/.uni/container/{{ parent_label }}/apt-ca
 
 container_name: apt-cacher-ng.server
 
-cache_data_dir: "{{ ansible_env.HOME }}/.uni/data/{{ parent_label }}/apt-cacher-ng"
+cache_data_dir: "{{ container_home }}/data"
